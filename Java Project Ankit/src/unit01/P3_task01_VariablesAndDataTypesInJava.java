@@ -12,6 +12,13 @@ public class P3_task01_VariablesAndDataTypesInJava {
         obj.Float();
         obj.Double();
 	}
+	
+	// type conversion and type casting 
+	int a = 32000;
+	float f = a ;  // type conversion 
+	double d = 5579687.767675d;
+   //	int b = d;  ->> error
+	int b = (int)d;  // type casting  
 
 }
 
