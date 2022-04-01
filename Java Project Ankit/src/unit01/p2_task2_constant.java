@@ -1,5 +1,4 @@
 package unit01;
-
 public class p2_task2_constant {
 
 	//final keyword is used for assigning a constant value which will remain same throughout the program
@@ -14,7 +13,6 @@ public class p2_task2_constant {
 			NewClass obj=new NewClass();
 			obj.add(1,2);
 			System.out.println(obj.Pi);
-
 		}
 		public static void main(String args)
 		{
@@ -33,7 +31,7 @@ public class p2_task2_constant {
 		//value of pi is imported from class P2_Task02_ConstantsInJava into the new class created
 		//another way of resolving the problem is by declaring the variable globally
 		//
-		System.out.println(P2_Task02_ConstantsInJava.Pi);
+		System.out.println(p2_task2_constant.Pi);
 		}
 	}
 
