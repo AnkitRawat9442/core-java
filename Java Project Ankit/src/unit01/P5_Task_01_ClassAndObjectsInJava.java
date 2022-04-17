@@ -3,12 +3,12 @@ package unit01;
 public class P5_Task_01_ClassAndObjectsInJava {
 	public static void main(String[] args) {
 		ABCD obj = new ABCD();
-		obj.display();
+		ABCD.display();
 		
 		ABCD.display();
 		
 		ABCD obj1 = new ABCD();
-		obj.display2();
+		obj1.display2();
 	}
 }
 

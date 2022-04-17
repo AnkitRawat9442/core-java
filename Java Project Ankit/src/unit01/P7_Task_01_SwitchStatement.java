@@ -37,8 +37,6 @@ class SwitchStatements {
 		default :
 			System.out.println("invalid choice");
 		}
-		
-		
-		
+			
 	}
 }
