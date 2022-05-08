@@ -119,5 +119,12 @@ class QuestionsOnArray {
 			}
 			System.out.println(); 
 	    }
+	 
+ }
  
-}
+
+
+
+
+
+

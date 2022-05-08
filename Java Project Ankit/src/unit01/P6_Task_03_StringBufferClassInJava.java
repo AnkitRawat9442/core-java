@@ -12,7 +12,7 @@ public class P6_Task_03_StringBufferClassInJava
 {
     public static void main(String[] args)
     {
-        StringBuffer sb = new StringBuffer("Hello, I am Anshika Mehta");
+        StringBuffer sb = new StringBuffer("Hello, I am Ankit Rawat");
         System.out.println(sb.charAt(0));
 
         // StringBuffer class append() method, now the original string is changed
@@ -20,10 +20,10 @@ public class P6_Task_03_StringBufferClassInJava
         System.out.println(sb);
 
         // StringBuffer insert() method
-        StringBuffer sb2 = new StringBuffer("Hello ");
+        StringBuffer sb2 = new StringBuffer("Hello");
         sb2.insert(1, "Java");
         System.out.println(sb2);
-
+        
         // StringBuffer replace() method
         StringBuffer sb3 = new StringBuffer("Hello");
         sb3.replace(1, 3, "Java");
